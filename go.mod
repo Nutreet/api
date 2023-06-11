@@ -4,11 +4,9 @@ go 1.20
 
 require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0
-	github.com/nutreet/common v1.12.0
+	github.com/nutreet/common v1.13.0
 	google.golang.org/grpc v1.55.0
 )
-
-replace github.com/nutreet/common => ../common
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
